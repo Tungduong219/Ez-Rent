@@ -15,7 +15,7 @@ import com.Group1.ez_rent.database.entity.*;
         InvoiceEntity.class, 
         TicketEntity.class, 
         AppointmentEntity.class
-}, version = 1, exportSchema = false)
+}, version = 2, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static final String DATABASE_NAME = "ezrent_db";
