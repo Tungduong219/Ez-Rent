@@ -81,7 +81,7 @@ public class RegisterDetailsActivity extends AppCompatActivity {
                 session.createLoginSession(phoneNumber);
                 
                 Toast.makeText(this, "Đăng ký thành công!", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(RegisterDetailsActivity.this, MainActivity.class);
+                Intent intent = new Intent(RegisterDetailsActivity.this, SearchIntroActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             });

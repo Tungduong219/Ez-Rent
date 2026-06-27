@@ -42,11 +42,17 @@ public class LoginActivity extends AppCompatActivity {
         edtPassword = findViewById(R.id.password);
         btnLogin = findViewById(R.id.btn_login);
         tvRegister = findViewById(R.id.tv_register_now);
+        TextView tvForgotPassword = findViewById(R.id.tv_forgot_password);
 
         // Tạo dữ liệu mẫu nếu DB trống
         createSampleUser();
 
         btnLogin.setOnClickListener(v -> handleLogin());
+
+        tvForgotPassword.setOnClickListener(v -> {
+            Intent intent = new Intent(LoginActivity.this, ForgotPasswordActivity.class);
+            startActivity(intent);
+        });
 
         tvRegister.setOnClickListener(v -> {
             Intent intent = new Intent(LoginActivity.this, RegisterPhoneActivity.class);
@@ -81,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
                     session.createLoginSession(phone);
                     
                     Toast.makeText(this, "Đăng nhập thành công!", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this, SearchIntroActivity.class);
                     startActivity(intent);
                     finish();
                 } else {
