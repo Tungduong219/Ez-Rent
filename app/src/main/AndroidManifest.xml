@@ -29,6 +29,27 @@
         <activity
             android:name=".RegisterDetailsActivity"
             android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchIntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveyStep1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveyStep2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveyStep3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveyStep4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SurveyStep5Activity"
+            android:exported="false" />
     </application>
 
 </manifest>
