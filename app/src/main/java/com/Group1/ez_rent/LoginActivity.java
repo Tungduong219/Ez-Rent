@@ -26,12 +26,14 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         
         session = new SessionManager(this);
-        // Kiểm tra nếu đã đăng nhập thì vào thẳng Main
+        // Tạm thời tắt tự động đăng nhập để luôn bắt đầu từ trang này theo yêu cầu
+        /*
         if (session.isLoggedIn()) {
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
             finish();
             return;
         }
+        */
 
         setContentView(R.layout.dang_nhap);
 

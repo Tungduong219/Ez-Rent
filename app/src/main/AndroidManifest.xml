@@ -50,6 +50,36 @@
         <activity
             android:name=".SurveyStep5Activity"
             android:exported="false" />
+        <activity
+            android:name=".ContractActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ElectricWaterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyRoomActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReportIssueActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuccessPaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
