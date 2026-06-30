@@ -2,12 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="color_darkgray">#BDBDBD</color>
-    <color name="color_darkslategray">#374151</color>
-    <color name="color_gray_200">#111827</color> <!-- Foreground chính -->
-    <color name="color_slategray">#6B7280</color> <!-- Chữ phụ -->
-    <color name="color_steelblue">#5DA1D6</color> <!-- Brand primary -->
-    <color name="color_link_blue">#5DA1D6</color>
-    <color name="background_light">#F9FAFB</color> <!-- Nền input -->
-    <color name="color_border_light">#E5E7EB</color> <!-- Viền input -->
+
+    <color name="color_darkgray">#9CA3AF</color>
+    <color name="color_darkslategray">#1F2937</color> <!-- Đậm hơn (Gray 800) -->
+    <color name="color_gray_200">#111827</color> <!-- Đen sâu (Gray 900) -->
+    <color name="color_slategray">#4B5563</color> <!-- Xám chữ phụ đậm hơn (Gray 600) -->
+    <color name="color_steelblue">#5DA1D6</color>
+    <color name="color_link_blue">#3B82F6</color>
+    <color name="background_light">#F9FAFB</color>
+    <color name="color_border_light">#E5E7EB</color>
 </resources>
